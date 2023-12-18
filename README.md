@@ -11,14 +11,14 @@ Before starting the assignment, be sure to complete the following steps:
 - [x] Inside your local Git repository, add the starter files from your file downloads.
 - [x] Push these changes to GitHub or GitLab.
 
-#Challenge Instructions
+# Challenge Instructions
 
 The starter files consist of the following files: Accounts.py, savings_account.py, cd_account.py, and customer_banking.py. The Accounts.py file contains the Account class with methods to set the balance and interest.
 In the savings_account.py file, you will import the Account class and create a create_savings_account function that will create a savings account instance, calculate the interest earned based on user input, update the account balance with the earned interest, and return the updated balance and interest earned.
 In the cd_account.py file, you will import the Account class and create a create_cd_account function that will create a CD account instance, calculate the interest earned based on user input, update the account balance with the earned interest, and return the updated balance and interest earned.
 In the customer_banking.py file, you will import the create_savings_account and create_cd_account functions, then create a main function that prompts the user to enter the savings and CD account details, call the corresponding functions to calculate the interest earned and update the balances, and display the results.
 
-#Create the Savings Account Function
+# Create the Savings Account Function
 
 Open the savings_account.py file, and do the following:
 Imports the Account class from the Accounts.py file.
@@ -69,7 +69,7 @@ If you're struggling with how to start, consider creating one Python file that h
 Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your hard work! Also make sure that your repo has a detailed README.md file.
 Requirements
 
-#Create the Savings Account Function (35 points)
+# Create the Savings Account Function (35 points)
 
 The Account class from the Accounts.py file is imported. (4 points)
 In the create_savings_account function, an instance of the Account class is created and the balance and interest parameters are passed to the Account class. (6 points)
@@ -79,7 +79,7 @@ The updated balance is passed to the set balance method using the instance of th
 The interest earned is passed to the set balance method using the instance of the Account class. (6 points)
 The updated balance and interest earned are returned by the function. (5 points)
 
-#Create the CD Account Function (35 points)
+# Create the CD Account Function (35 points)
 
 The Account class from the Accounts.py file is imported. (4 points)
 In the create_cd_account function, an instance of the Account class is created and the balance and interest parameters are passed to the Account class. (6 points)
